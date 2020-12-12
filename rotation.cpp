@@ -53,9 +53,10 @@ int main()
 // ############################################################################
 // Getting the degree of angle 
         
-        //int angle;
-        //std::cout << "Please enter the angle of rotation in degrees! \n";
-        //std::cin >> angle;
+        float angle;
+        std::cout << std::endl <<"Please enter the angle of rotation in degrees! \n" << std::endl;
+        std::cin >> angle;
+        std::cout << std::endl << "The degree of rotation is: "  << angle << std::endl;
  
 // Getting the name of the input file:
 
@@ -96,7 +97,6 @@ int main()
 // Declaring some variables
 
         float pi = 3.1415926535897932f;
-        float angle = 50.0f;
         float angle_rad = pi/180.0f*angle;
 
 // Calculating the new image sizes and centers:
